@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: willchrist/frontend-service:1b35180
+          image: willchrist/frontend-service:fdf27af
           ports:
             - containerPort: 8000
           resources:
