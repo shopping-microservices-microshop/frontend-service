@@ -40,7 +40,7 @@ HTML_TEMPLATE = """
     </style>
 </head>
 <body>
-    <h1>🛒 AI E-commerce Assistant</h1>
+    <h1>🛒SmartPick  AI E-commerce Assistant</h1>
     <div class="container">
         <div class="main-content">
             <div class="card">
