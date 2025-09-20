@@ -17,7 +17,7 @@ HTML_TEMPLATE = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI-Powered E-commerce Assistant</title>
+    <title>SmartPick        AI-Powered E-commerce Assistant</title>
     <style>
         body { font-family: sans-serif; max-width: 1000px; margin: auto; padding: 20px; line-height: 1.6; background-color: #f4f4f9; }
         h1, h2 { color: #333; }
