@@ -52,8 +52,6 @@ jobs:
           labels: "revision=${{ github.sha }}"
 
       # Step 6: Update the image tag in the local Kubernetes deployment manifest
-      # This step assumes your deployment.yaml is in a 'k8s' directory.
-      # Please adjust the path if your file is located elsewhere.
       - name: Update Kubernetes Manifest
         run: |
           yq e '.spec.template.spec.containers[0].image = "${{ secrets.DOCKER_USERNAME }}/frontend-service:${{ steps.image_tag.outputs.tag }}"' -i k8s/deployment.yaml
